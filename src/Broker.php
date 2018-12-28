@@ -1,7 +1,6 @@
 <?php
 namespace Olea\SSOBroker;
 
-
 /**
  * Single sign-on broker.
  *

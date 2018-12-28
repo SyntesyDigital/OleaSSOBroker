@@ -2,7 +2,6 @@
 
 namespace Olea\SSOBroker;
 
-use Session;
 use Olea\SSOBroker\Broker;
 
 class OleaConnect {
