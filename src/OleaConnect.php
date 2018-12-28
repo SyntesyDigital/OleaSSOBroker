@@ -1,8 +1,15 @@
 <?php
+/*
+ * This file is a package for Olea projet
+ *
+ * (c) Nicolas DEL CASTILLO <nicolas.delcastillo@syntesy.io>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 namespace Olea\SSOBroker;
 
-use Session;
 use Olea\SSOBroker\Broker;
 
 class OleaConnect {
