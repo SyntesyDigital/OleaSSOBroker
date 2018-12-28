@@ -1,5 +1,5 @@
 <?php
-namespace Jasny\SSO;
+namespace Olea\SSOBroker;
 
 /**
  * SSO Exception
