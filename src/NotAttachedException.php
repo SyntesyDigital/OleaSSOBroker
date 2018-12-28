@@ -1,5 +1,5 @@
 <?php
-namespace Olea\SSOBroker;
+namespace SSOBroker;
 
 /**
  * Exception thrown when a request is done while no session is attached

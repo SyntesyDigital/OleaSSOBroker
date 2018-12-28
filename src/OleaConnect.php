@@ -1,8 +1,8 @@
 <?php
 
-namespace Olea\SSOBroker;
+namespace SSOBroker;
 
-use Olea\SSOBroker\Broker;
+use SSOBroker\Broker;
 
 class OleaConnect {
 

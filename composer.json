@@ -1,5 +1,5 @@
 {
-    "name": "olea/sso-broker",
+    "name": "olea/ssobroker",
     "description": "Broker for olea connect server",
     "homepage": "http://syntesy.io",
     "authors": [
@@ -8,16 +8,9 @@
             "email": "nicolas.delcastillo@syntesy.io"
         }
     ],
-    "extra": {
-        "laravel": {
-            "aliases": {
-                "OleaConnect": "Olea\\SSOBroker\\OleaConnect"
-            }
-        }
-    },
     "autoload": {
         "psr-0": {
-            "Olea\\SSOBroker\\": "src/"
+            "SSOBroker": "src/"
         }
     }
 }
