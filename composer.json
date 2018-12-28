@@ -8,6 +8,7 @@
             "email": "nicolas.delcastillo@syntesy.io"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "Olea\\SSOBroker\\": "src/"
