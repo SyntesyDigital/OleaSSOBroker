@@ -43,4 +43,9 @@ class OleaConnect {
         return $this->broker->getUserInfo();
     }
 
+    public function logout()
+    {
+        return $this->broker->logout();
+    }
+
 }
