@@ -1,8 +1,13 @@
 <?php
 namespace Olea\SSOBroker;
 
+
 /**
  * Single sign-on broker.
+ *
+ * https://github.com/legalthings/sso
+ *
+ * Copyright (c) 2017 Arnold Daniels
  *
  * The broker lives on the website visited by the user. The broken doesn't have any user credentials stored. Instead it
  * will talk to the SSO server in name of the user, verifying credentials and getting user information.
