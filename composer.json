@@ -1,0 +1,16 @@
+{
+    "name": "olea/sso-broker",
+    "description": "Broker for olea connect server",
+    "authors": [
+        {
+            "name": "Nicolas DEL CASTILLO",
+            "email": "nicolas.delcastillo@syntesy.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Olea\\SSOBroker\\": "src/"
+        }
+    }
+}
