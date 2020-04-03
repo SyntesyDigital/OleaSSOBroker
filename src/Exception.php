@@ -1,5 +1,5 @@
 <?php
-namespace SSOBroker;
+namespace Olea\SSOBroker;
 
 /**
  * SSO Exception
