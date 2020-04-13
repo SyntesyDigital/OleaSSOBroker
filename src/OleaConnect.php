@@ -1,11 +1,9 @@
 <?php
 
-namespace SSOBroker;
+namespace Olea\SSOBroker;
 
-use SSOBroker\Broker;
-
-class OleaConnect {
-
+class OleaConnect
+{
     public function __construct()
     {
         $this->broker = new Broker(env('SSO_SERVER'), env('SSO_BROKER_ID'), env('SSO_BROKER_SECRET'));
@@ -27,19 +25,13 @@ class OleaConnect {
         try {
             return $this->broker->getUserInfo();
         } catch (NotAttachedException $e) {
-            header('Location: ' . $_SERVER['REQUEST_URI']);
+            header('Location: '.$_SERVER['REQUEST_URI']);
             exit;
         } catch (SsoException $e) {
-            header("Location: error.php?sso_error=" . $e->getMessage(), true, 307);
+            header('Location: error.php?sso_error='.$e->getMessage(), true, 307);
         }
 
         return false;
-    }
-
-
-    public function getUser()
-    {
-        return $this->broker->getUserInfo();
     }
 
     public function logout()
@@ -47,4 +39,13 @@ class OleaConnect {
         return $this->broker->logout();
     }
 
+    public function getUser($params = [])
+    {
+        return $this->broker->getUserInfo($params);
+    }
+
+    public function autologin($credentials)
+    {
+        return $this->broker->autologin($credentials);
+    }
 }
