@@ -4,10 +4,11 @@
     "authors": [
         {
             "name": "Nicolas DEL CASTILLO",
-            "email": "nicolas.delcastillo@syntesy.io"
+            "email": "nicolas.delcastillo@syntesy.io",
+            "role": "Developer"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Olea\\SSOBroker\\": "src/"
